@@ -23,6 +23,12 @@ This project integrates IoT technology with precision agriculture to monitor:
 The system uses an **ESP32 NodeMCU** to collect environmental data and sends it to the **Blynk IoT dashboard** via Wi-Fi for real-time monitoring.
 
 ---
+## 💡 Problem Statement
+
+Traditional microgreen cultivation lacks precise environmental monitoring, leading to inconsistent protein yield and nutritional quality.
+
+This project solves the problem by integrating IoT sensors with real-time cloud monitoring and computing a custom Protein Index to quantify growth efficiency.
+
 
 ## 🧠 Key Concept – Protein Index
 
