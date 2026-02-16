@@ -4,33 +4,33 @@
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
 
-# 🌱 Smart Growth Monitor for Protein-Rich Microgreens (IoT)
+#  Smart Growth Monitor for Protein-Rich Microgreens (IoT)
 
 An IoT-based smart agriculture system designed to monitor and optimize environmental conditions for protein-rich mung bean microgreens using ESP32 and real-time cloud monitoring.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project integrates IoT technology with precision agriculture to monitor:
 
-- 🌡 Temperature
-- 💧 Humidity
-- 🌱 Soil Moisture
-- ☀ Light Intensity
-- 📊 Protein Index (Computed Parameter)
+-  Temperature
+-  Humidity
+-  Soil Moisture
+-  Light Intensity
+-  Protein Index (Computed Parameter)
 
 The system uses an **ESP32 NodeMCU** to collect environmental data and sends it to the **Blynk IoT dashboard** via Wi-Fi for real-time monitoring.
 
 ---
-## 💡 Problem Statement
+## Problem Statement
 
 Traditional microgreen cultivation lacks precise environmental monitoring, leading to inconsistent protein yield and nutritional quality.
 
 This project solves the problem by integrating IoT sensors with real-time cloud monitoring and computing a custom Protein Index to quantify growth efficiency.
 
 
-## 🧠 Key Concept – Protein Index
+##  Key Concept – Protein Index
 
 Instead of analyzing multiple environmental parameters separately, this system computes a **Protein Index (0–100%)**, representing how optimal the current environment is for protein synthesis in mung beans.
 
@@ -48,7 +48,7 @@ Each factor is normalized based on optimal growth conditions.
 
 ---
 
-## ⚙️ Hardware Components
+##  Hardware Components
 
 - ESP32 NodeMCU
 - DHT22 Temperature & Humidity Sensor
@@ -59,7 +59,7 @@ Each factor is normalized based on optimal growth conditions.
 
 ---
 
-## 🔌 Pin Configuration
+##  Pin Configuration
 
 | Component | ESP32 Pin |
 |-----------|-----------|
@@ -70,7 +70,7 @@ Each factor is normalized based on optimal growth conditions.
 
 ---
 
-## 📊 Optimal Growth Ranges
+##  Optimal Growth Ranges
 
 | Parameter | Optimal Range |
 |-----------|---------------|
@@ -82,7 +82,7 @@ Each factor is normalized based on optimal growth conditions.
 
 ---
 
-## 📱 IoT Dashboard
+##  IoT Dashboard
 
 The Blynk IoT platform is used for:
 
@@ -93,7 +93,7 @@ The Blynk IoT platform is used for:
 
 ---
 
-## 🧪 Testing & Results
+##  Testing & Results
 
 - Sensor accuracy validated against commercial instruments
 - Real-time changes reflected in Protein Index
@@ -102,7 +102,7 @@ The Blynk IoT platform is used for:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Automatic irrigation system
 - AI-based predictive yield analysis
@@ -112,7 +112,7 @@ The Blynk IoT platform is used for:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Embedded C (Arduino Framework)
 - ESP32
@@ -122,7 +122,7 @@ The Blynk IoT platform is used for:
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
 - Abin Shaju  
 - Harikrishna Ramesh  
